@@ -73,9 +73,8 @@ function tienenMismaLongitud(str1, str2) {
   // Tu código:
   if (str1.lenght === str2.lenght) {
     return true;
-      }
-    {  return false
     }
+    return false
 }
 
 function menosQueNoventa(num) {
@@ -111,9 +110,10 @@ function esPar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num / 2 === 0) {
-    return true; } 
-    { return false;
-    }
+    return true; 
+  } else { 
+  return false;
+  }
 }
 
 function esImpar(num) {
@@ -121,9 +121,9 @@ function esImpar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num / 2 === 1) {
-    return true
-    } 
-    { return false
+    return true;
+    } else {
+      return false;
     }
 }
 
@@ -131,32 +131,35 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  Math.pow(num, 2);
+  return Math.pow(num,2)
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
   Math.pow(num, 3);
+    return num
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  Math.pow (num, exponent)
+  Math.pow(num, exponent)
   return num;
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  Math.round (num);
+  Math.round(num);
+    return num
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  Math.ceil (num);
+  Math.ceil(num);
+    return num
 }
 
 function numeroRandom() {
